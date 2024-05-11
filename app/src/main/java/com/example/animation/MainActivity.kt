@@ -63,6 +63,7 @@ class MainActivity : ComponentActivity() {
 //                )
 //                spring(Spring.DampingRatioHighBouncy)
             )
+
             val infiniteTransition = rememberInfiniteTransition()
             val color by infiniteTransition.animateColor(
                 initialValue = Color.Red,
