@@ -72,17 +72,17 @@ class MainActivity : ComponentActivity() {
                     repeatMode = RepeatMode.Reverse
                 )
             )
-                Box(modifier = Modifier
-                    .size(size)
-                    .background(color),
-                    contentAlignment = Alignment.Center){
-                    Button(onClick = { sizeState += 50.dp}) {
-                        Text(text = "Increase Size")
-                    }
+            Box(modifier = Modifier
+                .size(size)
+                .background(color),
+                contentAlignment = Alignment.Center){
+                Button(onClick = { sizeState += 50.dp}) {
+                    Text(text = "Increase Size")
                 }
-
             }
+
         }
     }
+}
 
 
